@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Reporters.io is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://reporters.io/
+Reporters.io provides a journalist contact database API and MCP tools that enable developers to search for reporters, media outlets, and articles by topic, beat, and geography. The platform offers free and paid plans, exporting capabilities, and integrates with AI assistants. It includes comprehensive documentation, quickstart guides, and example code in Python and JavaScript, supporting both public search and paid contact detail retrieval.
+
+**Areas:** Company · API · Journalism · Database · MCP
+
+## Reporters.io on APIs.io
+
+Everything profiled for Reporters.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/reporters-io/](https://apis.io/providers/reporters-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Reporters.io Account API](https://apis.io/apis/reporters-io/reporters-io-account-api/) — The Account API from Reporters.io — 1 operation(s) for account.
+- [Reporters.io Metadata API](https://apis.io/apis/reporters-io/reporters-io-metadata-api/) — The Metadata API from Reporters.io — 1 operation(s) for metadata.
+- [Reporters.io Outlets API](https://apis.io/apis/reporters-io/reporters-io-outlets-api/) — The Outlets API from Reporters.io — 5 operation(s) for outlets.
+- [Reporters.io Reporters API](https://apis.io/apis/reporters-io/reporters-io-reporters-api/) — The Reporters API from Reporters.io — 4 operation(s) for reporters.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Reporters.io Agentic Access](https://apis.io/agentic-access/reporters-io/reporters-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/reporters-io/reporters-io-account/)
+- [ArticlePage](https://apis.io/schemas/reporters-io/reporters-io-article-page/)
+- [Outlet](https://apis.io/schemas/reporters-io/reporters-io-outlet/)
+- [Reporter](https://apis.io/schemas/reporters-io/reporters-io-reporter/)
+- [ReporterPage](https://apis.io/schemas/reporters-io/reporters-io-reporter-page/)
+- [SearchFilters](https://apis.io/schemas/reporters-io/reporters-io-search-filters/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Reporters Io Context](https://apis.io/jsonld/reporters-io/reporters-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Reporters.io API Rules](https://apis.io/rules/reporters-io/reporters-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Reporters.io Authentication](https://apis.io/security/reporters-io/reporters-io-authentication/)
+- [Reporters.io Domain Security](https://apis.io/security/reporters-io/reporters-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Reporters.io Plans Pricing](https://apis.io/plans/reporters-io/reporters-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://reporters.io/)
+- [Documentation](https://reporters.io/api)
+- [Getting started](https://reporters.io/docs)
+- [API reference](https://reporters.io/api)
+- [Pricing](https://reporters.io/plans)
+- [Sign up](https://reporters.io/signup)
+- [Blog](https://reporters.io/blog)
+- [Security](https://reporters.io/beats/security)
+- [Terms of service](https://reporters.io/terms)
+- [Privacy policy](https://reporters.io/privacy)
+- [GitHub](https://github.com/ricciflow-api)
+
+## API Evangelist rating
+
+**Kin Score 58.2** — strong · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 60.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 59.1 |
+
+**Agent readiness 46.7** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/reporters-io/](https://apis.io/providers/reporters-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Reporters.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/reporters-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
